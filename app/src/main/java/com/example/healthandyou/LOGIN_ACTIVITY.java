@@ -23,11 +23,11 @@ public class LOGIN_ACTIVITY extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        edUsername = findViewById(R.id.editTextText4);
-        edPassword = findViewById(R.id.editTextTextPassword);
+        edUsername = findViewById(R.id.editTextTAppFullName);
+        edPassword = findViewById(R.id.editTextcontactNumber);
         btn = findViewById(R.id.button5);
         tv = findViewById(R.id.textView);
-        btn1=findViewById(R.id.button6);
+        btn1=findViewById(R.id.buttonbookappointment);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
